@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Vidaloka&display=swap');
+
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+    
+}
+.cbg{
+    overflow: hidden;
+    position: absolute;
+    width: 1920px;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background: rgba(0, 0, 0, 0.36);
+}
+.cbg::-webkit-scrollbar{
+    display: none;
+}
+
+.bg{
+    background: rgba(0, 0, 0, 0.62);;
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    position: absolute;
+    width: 1920px;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+}
+.bg-overlay{
+    background-color: rgba(0, 0, 0, 0.62);
+    width: 1920px;
+    height: 100vh;
+
+}
+
+.left-side-content h4{
+    position: absolute;
+    left: 3%;
+    top: 17%;
+    width: 128px;
+    height: 38px;
+
+    font-family: 'Sue Ellen Francisco';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 108.3%;
+    color: #FFFFFF;
+}
+.left-side-content h1{
+    position: absolute;
+    left: 3%;
+    top: 23%;
+    width: 531px;
+    height: 96px;
+
+    font-family: 'Shippori Mincho';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 120%;
+    color: #FFFFFF;
+
+}
+.left-side-content p{
+    position: absolute;
+    left: 3%;
+    top: 35%;
+    width: 575px;
+    height: 121px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+
+
+    color: #FFFFFF;
+}
+.picture-left{
+    position: absolute;
+    width: 576.56px;
+    height: 323px;
+    left: 58px;
+    top:45%;
+}
+.left-side-content button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 22px 39px;
+    gap: 10px;
+
+    position: absolute;
+    width: 201px;
+    height: 65px;
+    left: 43px;
+    top: 808px;
+
+    background: #1E5631;
+    border-radius: 34px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+
+.log-in{
+    position: absolute;
+    width: 563px;
+    height: 692px;
+    left: 684px;
+    top: 116px;
+
+    background: rgba(0, 0, 0, 0.36);
+}
+.log-in h1{
+    position: absolute;
+    left: 9%;
+    top: 7%;
+    width: 531px;
+    height: 96px;
+
+    font-family: 'Shippori Mincho';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 120%;
+    color: #FFFFFF;
+
+}
+.input-field{
+    display: inline-block;
+    gap: 10px;
+    position: absolute;
+    bottom: 8%;
+    left: 3.5%;
+}
+.input-field input{
+width: 443px;
+height: 60px;
+margin: 15px;
+background: rgba(0, 0, 0, 0.36);
+padding: 20px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 130%;
+color: #FFFFFF;
+
+/* or 23px */
+}
+.message-box{
+    
+    position: relative;
+    left: -1%;
+
+
+}
+
+.message-box textarea{
+    width: 443px;
+height: 150px;
+margin: 20px;
+background: rgba(0, 0, 0, 0.36);
+padding: 10px;
+resize: none;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 130%;
+color: #FFFFFF;
+}
+.message-box textarea::-webkit-scrollbar{
+    display: none;
+}
+.button button{
+display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 22px 39px;
+    gap: 10px;
+    width: 201px;
+    height: 65px;
+  
+    background: #1E5631;
+    border-radius: 34px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.right-side-content h4{
+    position: absolute;
+    right: 12%;
+    top: 5%;
+    width: 128px;
+    height: 38px;
+
+    font-family: 'Sue Ellen Francisco';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 108.3%;
+    color: #FFFFFF;
+}
+.right-side-content h1{
+    position: absolute;
+    right: 3%;
+    top: 10%;
+    width: 531px;
+    height: 96px;
+
+    font-family: 'Shippori Mincho';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 120%;
+    color: #FFFFFF;
+
+}
+.medicine{
+    display: inline-block;
+    position: absolute;
+    right: 1%;
+    top: 20%;
+}
+.medicine h2{
+    position: relative;
+    right: 5%;
+  
+    width: 531px;
+    height: 96px;
+
+    font-family: 'Shippori Mincho';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 23px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+.medicine p{
+    position: absolute;
+    right: 35%;
+    bottom: -35%;
+    width: 400px;
+    height: 121px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+
+
+    color: #FFFFFF;
+
+}
+.Food
+{
+    display: inline-block;
+    position: absolute;
+    right: -15%;
+    top: 20%;
+
+}
+.Food h2{
+    position: relative;
+    right: 5%;
+  
+    width: 531px;
+    height: 96px;
+
+    font-family: 'Shippori Mincho';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 23px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+.Food p{
+    position: absolute;
+    right: 35%;
+    bottom: -35%;
+    width: 400px;
+    height: 121px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+
+
+    color: #FFFFFF;
+
+}
+.learn
+{
+    display: inline-block;
+    position: absolute;
+    right: -8%;
+    top: 40%;
+
+}
+.learn h2{
+    position: relative;
+    right: 5%;
+  
+    width: 531px;
+    height: 96px;
+
+    font-family: 'Shippori Mincho';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 23px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+.learn p{
+    position: absolute;
+    right: 35%;
+    bottom: -35%;
+    width: 400px;
+    height: 121px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+
+
+    color: #FFFFFF;
+
+}
+.care
+{
+    display: inline-block;
+    position: absolute;
+    right: 1%;
+    top: 61%;
+
+}
+.care h2{
+    position: relative;
+    right: 5%;
+  
+    width: 531px;
+    height: 96px;
+
+    font-family: 'Shippori Mincho';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 23px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+.care p{
+    position: absolute;
+    right: 35%;
+    bottom: -35%;
+    width: 400px;
+    height: 121px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+
+
+    color: #FFFFFF;
+
+}
+.clothes
+{
+    display: inline-block;
+    position: absolute;
+    right: -15%;
+    top: 61%;
+    margin: 0;
+
+}
+.clothes h2{
+    position: relative;
+    right: 5%;
+  
+    width: 531px;
+    height: 96px;
+
+    font-family: 'Shippori Mincho';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 23px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+.clothes p{
+    position: absolute;
+    right: 35%;
+    bottom: -35%;
+    width: 400px;
+    height: 121px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+
+
+    color: #FFFFFF;
+
+}
